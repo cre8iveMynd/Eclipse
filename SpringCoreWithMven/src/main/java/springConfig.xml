@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<context:annotation-config></context:annotation-config>
+	
+	<bean class="com.kt.SpringCoreWithMven.Employee" id="sleeping">
+	<property name="eid" value="1000"></property>
+	<property name="ename" value="divya"></property>
+	<property name="esal" value="7000"></property>
+	</bean>
+	
+	<bean class="com.kt.SpringCoreWithMven.Address" id="address">
+	<property name="streetNum" value="745"></property>
+	<property name="state" value="delhi"></property>
+	<property name="colony" value="saraswathi ngr"></property>
+	</bean>
+	
+	
+	</beans>
